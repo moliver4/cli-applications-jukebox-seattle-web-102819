@@ -54,7 +54,7 @@ def run(songs)
   help()
   puts "Please enter a command:"
   while true
-
+    
     command = gets.chomp
     case command
       when "list"
