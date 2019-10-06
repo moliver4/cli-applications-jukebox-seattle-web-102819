@@ -33,7 +33,7 @@ def play(array)
   p input
   count = 0
   while count < array.length do
-    if input.to_i == count+1 || array.contains?(input)
+    if input.to_i == count+1 || array.includes?(input)
       puts "Playing #{array[count]}"
     else
       puts "Invalid input, please try again"
