@@ -51,7 +51,7 @@ end
 
 
 def run(songs)
-  help
+  help()
   while true
     puts "Please enter a command:"
     command = gets.chomp
