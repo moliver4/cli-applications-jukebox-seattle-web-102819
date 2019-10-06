@@ -70,5 +70,6 @@ def run(my_songs)
       input = prompt()
     end
   end
+if input == "exit"
   exit_jukebox()
 end
