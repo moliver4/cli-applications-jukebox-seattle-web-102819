@@ -33,7 +33,7 @@ def play(array)
   if (input.to_i).between?(1,9)
     puts "Playing #{array[input.to_i-1]}"
   elsif array.include?(input)
-    puts "Playing #{array[input.to_i - 1]}"
+    puts "Playing #{input}"
   else
     puts "Invalid input, please try again"
   end
