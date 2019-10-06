@@ -63,7 +63,7 @@ def run(songs)
       when "help"
         help
       when 'exit'
-        exit_jukebox
+        exit_jukebox()
         break
     end
   end
