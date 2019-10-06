@@ -37,16 +37,17 @@ def play(array)
     else
       puts "Invalid input, please try again"
     end
+    count+=1
   end
 end
-play(songs)
+
 
 def exit_jukebox()
   puts "Goodbye"
 end
 
 def prompt()
-  puts "Please enter a command:"
+  puts "I accept the following commands:"
   gets.strip
 end
 
@@ -73,3 +74,4 @@ def run(my_songs)
   end
   exit_jukebox()
 end
+
