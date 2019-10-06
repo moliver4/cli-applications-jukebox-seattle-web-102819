@@ -82,6 +82,7 @@ describe "CLI Jukebox" do
 
   context "with commands" do
     it "responds to 'exit'" do
+      run(songs)
       allow(self).to receive(:gets).and_return("exit")
       expect($stdout).to receive(:puts).with(/Please enter a command:/)
       expect($stdout).to receive(:puts).with(/Goodbye/)
