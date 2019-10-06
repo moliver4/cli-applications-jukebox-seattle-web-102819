@@ -85,7 +85,7 @@ describe "CLI Jukebox" do
       allow(self).to receive(:gets).and_return("exit")
       expect($stdout).to receive(:puts).with(/Please enter a command:/)
       expect($stdout).to receive(:puts).with(/Goodbye/)
-      run(songs)
+
     end
 
     it "responds to 'help'" do
