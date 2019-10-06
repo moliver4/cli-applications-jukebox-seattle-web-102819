@@ -30,7 +30,7 @@ end
 def play(array)
   puts "Please enter a song name or number:"
   input = gets.strip
-  if (1..9).between?(input.to_i) 
+  if (input.to_i).between?(1..9) 
       puts "Playing #{array[count]}"
     elsif array.include?(input)
       puts "Playing #{array[count]}"
